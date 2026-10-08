@@ -1,0 +1,11 @@
+class Solution {
+public:
+    bool isDivisibleBy9(const string& s) {
+        int ans=0;
+        for(char c:s){
+            ans=ans+c-'0';
+        }
+        return ans%9==0;
+    }
+    
+};
