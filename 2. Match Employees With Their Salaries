@@ -1,0 +1,3 @@
+select Employees.employee_id,name,salary
+from Employees,Salaries
+where Employees.employee_id=Salaries.employee_id;
